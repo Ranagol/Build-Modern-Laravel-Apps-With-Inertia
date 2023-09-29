@@ -2,10 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\User;
 use Auth;
-use Inertia\Inertia;
 use Request;
+use App\Models\User;
+use Inertia\Inertia;
+use App\Http\Controllers\Controller;
 
 class UsersController extends Controller
 {
